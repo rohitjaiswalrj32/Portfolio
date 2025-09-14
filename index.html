@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohit Jaiswal | Data Analyst Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Rohit Jaiswal</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <button class="dark-mode-toggle" onclick="toggleDarkMode()">🌙</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero fade-in">
+        <div class="hero-content">
+            <img src="profile.jpg" alt="Rohit Jaiswal" class="profile-pic">
+            <h1>Hi, I'm Rohit Jaiswal</h1>
+            <h2><span class="typing"></span></h2>
+            <p>Aspiring Data Analyst skilled in SQL, Python, Power BI & Tableau</p>
+            <div class="btn-group">
+                <a href="resume.pdf" class="btn" target="_blank">Download Resume</a>
+                <a href="#projects" class="btn secondary">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me -->
+    <section id="about" class="fade-in">
+        <h2>About Me</h2>
+        <p>I am an aspiring Data Analyst with expertise in SQL, Python, Power BI, Tableau, and Excel. I enjoy turning raw data into meaningful insights through analysis and visualization. As a recent MCA graduate, I've built multiple projects demonstrating my data skills and analytical mindset.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="fade-in">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Python (Pandas, NumPy)</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">Tableau</span>
+            <span class="skill-tag">Excel</span>
+            <span class="skill-tag">Matplotlib</span>
+            <span class="skill-tag">Seaborn</span>
+            <span class="skill-tag">EDA</span>
+            <span class="skill-tag">Communication</span>
+            <span class="skill-tag">Team Collaboration</span>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="fade-in">
+        <h2>What I Do</h2>
+        <div class="services-container">
+            <div class="service-card slide-left">
+                <i class="fas fa-database"></i>
+                <h3>Data Analysis</h3>
+                <p>Cleaning, transforming, and analyzing data for insights.</p>
+            </div>
+            <div class="service-card slide-right">
+                <i class="fas fa-chart-line"></i>
+                <h3>Data Visualization</h3>
+                <p>Interactive dashboards using Power BI & Tableau.</p>
+            </div>
+            <div class="service-card slide-left">
+                <i class="fas fa-code"></i>
+                <h3>Python Scripting</h3>
+                <p>Automating data tasks with Pandas & NumPy.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="fade-in">
+        <h2>Education</h2>
+        <div class="edu-container">
+            <div class="edu-card slide-left">
+                <h3>Chandigarh University</h3>
+                <p><strong>Course:</strong> MCA</p>
+                <p><strong>Specialization:</strong> Cloud Computing & DevOps</p>
+                <p><strong>Session:</strong> 2023 - 2025</p>
+                <p><strong>CGPA:</strong> 7.33 / 10</p>
+            </div>
+            <div class="edu-card slide-right">
+                <h3>University of Allahabad</h3>
+                <p><strong>Course:</strong> BCA</p>
+                <p><strong>Specialization:</strong> General</p>
+                <p><strong>Session:</strong> 2019 - 2022</p>
+                <p><strong>CGPA:</strong> 7.5 / 10</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="project-container">
+            <div class="project-card slide-left">
+                <h3>IPL 2025 Performance Dashboard</h3>
+                <p>Interactive Excel dashboard analyzing IPL 2025 data with KPIs, slicers & charts.</p>
+                <a href="https://github.com/rohitjaiswalrj32/IPL_2025_Performance_Dashboard" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card slide-right">
+                <h3>Retail Sales Analysis</h3>
+                <p>SQL analysis pipeline for retail data using Joins, CTEs & Window Functions.</p>
+                <a href="https://github.com/rohitjaiswalrj32/Retail_Sales_Analysis" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card slide-left">
+                <h3>Blinkit Sales Dashboard</h3>
+                <p>Power BI dashboard for sales performance with drill-down insights & automated KPIs.</p>
+                <a href="https://github.com/rohitjaiswalrj32/Blinkit_Sales_Dashboard" target="_blank">View on GitHub</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="fade-in">
+        <h2>Contact Me</h2>
+        <div class="social-icons">
+            <a href="mailto:rohitjaiswalrj32@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/rohitjaiswalrj32/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/rohitjaiswalrj32" target="_blank"><i class="fab fa-github"></i></a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Rohit Jaiswal. All Rights Reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        const texts = ["Aspiring Data Analyst", "SQL | Python | Power BI | Tableau", "Turning Data into Insights"];
+        let count=0,index=0;
+        (function type(){
+            let currentText=texts[count];
+            let letter=currentText.slice(0,++index);
+            document.querySelector(".typing").textContent=letter;
+            if(letter.length===currentText.length){count++;index=0;setTimeout(type,1200);}
+            else setTimeout(type,100);
+        })();
+
+        function toggleDarkMode(){document.body.classList.toggle("dark-mode");}
+        function toggleMenu(){document.querySelector(".nav-links").classList.toggle("active");document.querySelector(".hamburger").classList.toggle("active");}
+
+        const faders=document.querySelectorAll('.fade-in');
+        const slidersLeft=document.querySelectorAll('.slide-left');
+        const slidersRight=document.querySelectorAll('.slide-right');
+        const observer=new IntersectionObserver((entries)=>{
+            entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target);}});
+        },{threshold:0.2});
+        faders.forEach(fader=>observer.observe(fader));
+        slidersLeft.forEach(slider=>observer.observe(slider));
+        slidersRight.forEach(slider=>observer.observe(slider));
+    </script>
+</body>
+</html>
